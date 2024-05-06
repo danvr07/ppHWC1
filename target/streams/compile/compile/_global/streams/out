@@ -1,0 +1,26 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Deprecation Warning: /Users/dan/Desktop/t1_v2/src/main/scala/Matrix.scala:59:31 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m59 |[0m              [33mval[0m [36mres[0m = (x, y).zipped.map(([36mrowX[0m, [36mrowY[0m) => rowX.lazyZip(rowY).map(_ - _) )[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                        [33m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmethod[0m [35mzipped[0m in [33mclass[0m [35mOps[0m is deprecated since 2.13.0: Use xs.lazyZip(ys)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/dan/Desktop/t1_v2/src/main/scala/Matrix.scala:45:4 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m45 |[0m    data [33mmatch[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |    [33m^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |    [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |    It would fail on pattern case: Some(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/dan/Desktop/t1_v2/src/main/scala/Matrix.scala:85:4 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m85 |[0m    m [33mmatch[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |    [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |    [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |    It would fail on pattern case: None[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading ElementType,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file /modules/java.base/java/lang/annotation/ElementType.class is broken, reading aborted with class java.lang.RuntimeException[0m
+[0m[[0m[31merror[0m] [0m[0mbad constant pool index: 0 at pos: 1220[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading AccessFlag,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file /modules/java.base/java/lang/reflect/AccessFlag.class is broken, reading aborted with class java.lang.RuntimeException[0m
+[0m[[0m[31merror[0m] [0m[0mbad constant pool index: 0 at pos: 5189[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
